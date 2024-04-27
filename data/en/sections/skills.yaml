@@ -1,0 +1,35 @@
+# section information
+section:
+  name: Skill Set
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: System Design
+  logo: /images/sections/skills/softwarearch.svg
+  summary: "Capable of designing loosely coupled distributed systems that scale and are highly available and observable."
+  url: "https://en.wikipedia.org/wiki/Software_architecture"
+
+- name: .NET Based Development
+  logo: /images/sections/skills/net.png
+  summary: "Main choice of framework for professional work. Experienced in building Web APIs, Desktop applications."
+  url: "https://dotnet.microsoft.com/"
+
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "Primary experience in working with Microsoft Azure, with growing knowledge about AWS."
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development. Experience with GitHub and Azure Devops providers. Experience in trunk based and fork-PR based workflows. "
+  url: "https://git-scm.com/"
+
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "Working knowledge of python. Used for basic scripting and DSA problem solving."

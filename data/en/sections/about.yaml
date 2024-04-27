@@ -1,0 +1,89 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: false
+  template: sections/about.html
+
+# your designation
+designation: Cloud Solutions Architect
+# your company information
+company:
+  name: Accenture
+  url: "https://www.accenture.com/in-en"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am an experienced pro-code and low-code cloud solutions architect with more than a decade of expertise in building lines of business services and systems integration across insurance and banking verticals. I am a technology Nerd with a penchant for public speaking. I enjoy marrying business needs with appropriate technologies to deliver business value. I also enjoy mentoring colleagues and have managed small and medium-sized teams.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "codidharma@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/codidharma"
+
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/mandar-dharmadhikari/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/codidharma"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "My Resume"
+  url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+
+- type: soft-skill-indicator
+  name: Strategic
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Learner
+  percentage: 95
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Collaborator
+  percentage: 100
+  color: orange
+
+- type: soft-skill-indicator
+  name: Analyzer
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Servant Leader
+  percentage: 95
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Hard Worker
+  percentage: 100
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

@@ -1,0 +1,29 @@
+
+{{ define "header" }}
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }}" />
+{{ end }}
+
+{{ define "navbar" }}
+{{ partial "navigators/navbar.html" . }}
+{{ end }}
+
+
+
+{{ define "content" }}
+<section class="content-section" id="content-section">
+    <div class="content">
+        <div class="container p-0 read-area">
+            <!--Content Start-->
+            <div class="page-content">
+                <div style="margin-bottom: 80px;"></div>
+                <div class="post-content" id="post-content">
+                    {{ .Page.Content }}
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--scroll back to top-->
+
+</section>
+{{ end }}

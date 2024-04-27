@@ -1,0 +1,100 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Accenture in India.
+    url: "https://www.accenture.com/in-en"
+    location: Pune, India
+    logo: /images/sections/experiences/accenture.jpg
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: Accenture is a global professional services company with leading capabilities in digital, cloud and security.
+  positions:
+  - designation: Business and Integration Arch Manager
+    start: May 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Design and build lines of business applications for banking and insurance clients.
+    - Design and build CRM systems for banking and insurance clients.
+    - Lead a two pizza team.
+
+  - designation: Business and Integration Arch Associate Manager
+    start: Jan 2021
+    end: April 2022
+    responsibilities:
+    - Designed and built lines of business applications for banking and insurance clients.
+    - Lead a one pizza
+
+- company:
+    name: Chamonix
+    url: "https://chamonix.com.au/"
+    location: Adelaide, Australia
+    logo: /images/sections/experiences/chamonix.jpg
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/experiences/company2.jpg
+    overview: Chamonix is an IT consulting services company with leading capabilities in digital, cloud and security.
+  positions:
+  - designation: Technical Consultant
+    start: December 2019
+    end: December 2020
+    responsibilities:
+    - Advised government and private sector clients on adoption of cloud technologies.
+    - Designed and built serverless applications for clients.
+
+- company:
+    name: Mphasis
+    url: "https://www.mphasis.com/home.html"
+    location: Adelaide, Australia and Pune, INdia
+    logo: /images/sections/experiences/mphasis.jpg
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/experiences/company3.jpg
+    overview: Mphasis is an Indian IT consulting services company.
+  positions:
+  - designation: Module Lead
+    start: November 2016
+    end: November 2019
+    responsibilities:
+    - Designed and built enterprise integration solutions for banking client.
+    - Lead one pizza team.
+
+- company:
+    name: Atos Syntel
+    url: "https://atos.net/en/"
+    location: Pune, India
+    logo: /images/sections/experiences/syntel.jpg
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/experiences/company3.jpg
+    overview: Mphasis is an Indian IT consulting services company.
+  positions:
+  - designation: Senior Software Engineer
+    start: May 2016
+    end: November 2016
+    responsibilities:
+    - Managed and administered Biztalk based integration systems for a healthcare client.
+
+- company:
+    name: Tata Consultancy Servies
+    url: "https://www.tcs.com/"
+    location: Mumbai, India
+    logo: /images/sections/experiences/tcs.jpg
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/experiences/company3.jpg
+    overview: Tata Consultancy Services is a global professional services company with leading capabilities in digital, cloud and security.
+  positions:
+  - designation: Junior Developer
+    start: December 2012
+    end: May 2016
+    responsibilities:
+    - Built Biztalk based integration systems for an insurance client.
